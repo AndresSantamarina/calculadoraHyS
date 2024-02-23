@@ -1,0 +1,25 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainSection {
+  flex-grow: 1;
+}
+
+body {
+  background: #16222a;
+  background: -webkit-linear-gradient(to right, #3a6073, #16222a);
+  background: linear-gradient(to right, #3a6073, #16222a);
+}
+
+.contenedorPrincipal {
+  min-height: calc(100vh - 110px);
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
